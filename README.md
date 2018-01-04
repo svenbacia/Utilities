@@ -7,7 +7,7 @@ Collection of extensions for `UIKit` and `Foundation` which I use in my private 
 ### Carthage
 
 ```
-github "svenbacia/iTunesSearchAPI"
+github "svenbacia/Utilities"
 ```
 
 ### Manually
