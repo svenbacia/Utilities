@@ -1,4 +1,5 @@
 # Utilities
+[![Build Status](https://travis-ci.org/svenbacia/Utilities.svg?branch=master)](https://travis-ci.org/svenbacia/Utilities)
 
 Collection of extensions for `UIKit` and `Foundation` which I use in my private projects.
 
@@ -18,4 +19,3 @@ You can also download the repository and add the project manually as a subprojec
 
 - Swift 4
 - Xcode 9.2
-
