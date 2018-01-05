@@ -15,6 +15,13 @@ class DateTests: XCTestCase {
 
     private let formatter = ISO8601DateFormatter()
 
+    // MARK: - Setup
+
+    override func setUp() {
+        super.setUp()
+        TimeZone.ReferenceType.default = TimeZone(secondsFromGMT: 3600)!
+    }
+
     // MARK: - Tests
 
     func testStartOfDay() {
