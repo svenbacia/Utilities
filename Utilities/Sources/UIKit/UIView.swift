@@ -28,10 +28,10 @@ public extension UIView {
     ///   - view: The containing view.
     ///   - inset: An optional inset.
     public func fill(`in` view: UIView, inset: NSDirectionalEdgeInsets = .zero) {
-        self.topAnchor.constraint(equalTo: topAnchor, constant: inset.top).isActive = true
-        self.leadingAnchor.constraint(equalTo: leadingAnchor, constant: inset.leading).isActive = true
-        self.bottomAnchor.constraint(equalTo: bottomAnchor, constant: inset.bottom).isActive = true
-        self.trailingAnchor.constraint(equalTo: trailingAnchor, constant: inset.trailing).isActive = true
+        topAnchor.constraint(equalTo: view.topAnchor, constant: inset.top).isActive = true
+        leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: inset.leading).isActive = true
+        bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: inset.bottom).isActive = true
+        trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: inset.trailing).isActive = true
     }
 
     /// Fills the current view in the given view along the layout guide with optional edge insets.
@@ -41,9 +41,9 @@ public extension UIView {
     ///   - layoutGuide: The layout guide.
     ///   - inset: An optional inset.
     public func fill(`in` view: UIView, layoutGuide: UILayoutGuide, inset: NSDirectionalEdgeInsets = .zero) {
-        self.topAnchor.constraint(equalTo: layoutGuide.topAnchor, constant: inset.top).isActive = true
-        self.leadingAnchor.constraint(equalTo: layoutGuide.leadingAnchor, constant: inset.leading).isActive = true
-        self.bottomAnchor.constraint(equalTo: layoutGuide.bottomAnchor, constant: inset.bottom).isActive = true
-        self.trailingAnchor.constraint(equalTo: layoutGuide.trailingAnchor, constant: inset.trailing).isActive = true
+        topAnchor.constraint(equalTo: layoutGuide.topAnchor, constant: inset.top).isActive = true
+        leadingAnchor.constraint(equalTo: layoutGuide.leadingAnchor, constant: inset.leading).isActive = true
+        bottomAnchor.constraint(equalTo: layoutGuide.bottomAnchor, constant: inset.bottom).isActive = true
+        trailingAnchor.constraint(equalTo: layoutGuide.trailingAnchor, constant: inset.trailing).isActive = true
     }
 }
