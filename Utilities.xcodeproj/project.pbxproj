@@ -30,6 +30,7 @@
 		263DF41C1FFD6E5C000B088E /* NSLayoutConstraintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263DF41B1FFD6E5C000B088E /* NSLayoutConstraintTests.swift */; };
 		263DF4201FFD7077000B088E /* ReusableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263DF41F1FFD7077000B088E /* ReusableViewTests.swift */; };
 		267FF5501FFE8E7300443B37 /* UIColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267FF54F1FFE8E7300443B37 /* UIColorTests.swift */; };
+		26AFC070200A04E700FB5622 /* NotificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFC06F200A04E700FB5622 /* NotificationObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		263DF41B1FFD6E5C000B088E /* NSLayoutConstraintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintTests.swift; sourceTree = "<group>"; };
 		263DF41F1FFD7077000B088E /* ReusableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewTests.swift; sourceTree = "<group>"; };
 		267FF54F1FFE8E7300443B37 /* UIColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTests.swift; sourceTree = "<group>"; };
+		26AFC06F200A04E700FB5622 /* NotificationObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				2619BD7D1FFD1E9100A9F8AE /* Int.swift */,
 				2619BD8F1FFD26C200A9F8AE /* Path.swift */,
 				2619BD8B1FFD262B00A9F8AE /* String.swift */,
+				26AFC06F200A04E700FB5622 /* NotificationObserver.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				2619BD8E1FFD264B00A9F8AE /* UIColor.swift in Sources */,
 				2619BD861FFD23B400A9F8AE /* IndexPath.swift in Sources */,
 				2619BD841FFD212400A9F8AE /* NSLayoutConstraint.swift in Sources */,
+				26AFC070200A04E700FB5622 /* NotificationObserver.swift in Sources */,
 				2619BD8C1FFD262B00A9F8AE /* String.swift in Sources */,
 				2619BD901FFD26C200A9F8AE /* Path.swift in Sources */,
 				2619BD881FFD23E100A9F8AE /* Bool.swift in Sources */,
