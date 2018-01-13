@@ -11,12 +11,12 @@ import Foundation
 public extension Bool {
 
     /// Toggles the current value.
-    public mutating func flip() {
+    public mutating func toggle() {
         self = !self
     }
 
     /// Toggles the current value.
-    public func flipped() -> Bool {
+    public func toggled() -> Bool {
         return !self
     }
 }

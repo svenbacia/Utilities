@@ -15,12 +15,12 @@ class BoolTests: XCTestCase {
         var yes = true
         XCTAssertTrue(yes)
 
-        yes.flip()
+        yes.toggle()
         XCTAssertFalse(yes)
     }
 
     func testFlipped() {
-        XCTAssertTrue(false.flipped())
-        XCTAssertFalse(true.flipped())
+        XCTAssertTrue(false.toggled())
+        XCTAssertFalse(true.toggled())
     }
 }
