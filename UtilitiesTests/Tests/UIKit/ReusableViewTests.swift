@@ -104,11 +104,11 @@ private final class ViewController: UIViewController, UITableViewDataSource, UIT
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        return collectionView.dequeue(cell: CollectionViewCell.self, for: indexPath)
+        return collectionView.dequeue(CollectionViewCell.self, for: indexPath)
     }
 
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        return collectionView.dequeue(supplementaryView: HeaderFooterCollectionViewCell.self, ofKind: .sectionHeader, for: indexPath)
+        return collectionView.dequeue(HeaderFooterCollectionViewCell.self, ofKind: .sectionHeader, for: indexPath)
     }
 
     // MARK: - UITableViewDataSource
@@ -118,10 +118,10 @@ private final class ViewController: UIViewController, UITableViewDataSource, UIT
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return tableView.dequeue(cell: TableViewCell.self, for: .zero)
+        return tableView.dequeue(TableViewCell.self, for: .zero)
     }
 
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        return tableView.dequeue(headerFooter: HeaderFooterView.self)
+        return tableView.dequeue(HeaderFooterView.self)
     }
 }

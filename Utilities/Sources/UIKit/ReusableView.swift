@@ -68,7 +68,7 @@ public extension UICollectionView {
     ///   - cell: The type of class of the cell.
     ///   - indexPath: The index path specifying the location of the cell.
     /// - Returns: A valid collection view cell of the given type.
-    public func dequeue<Cell>(cell: Cell.Type, for indexPath: IndexPath) -> Cell where Cell: ReusableView & UICollectionViewCell {
+    public func dequeue<Cell>(_ cell: Cell.Type, for indexPath: IndexPath) -> Cell where Cell: ReusableView & UICollectionViewCell {
         guard let cell = dequeueReusableCell(withReuseIdentifier: cell.reuseIdentifier, for: indexPath) as? Cell else {
             fatalError("Could not dequeue reusable cell with identifier: \(Cell.reuseIdentifier)")
         }
@@ -82,7 +82,7 @@ public extension UICollectionView {
     ///   - kind: The kind of supplementary view to retrieve.
     ///   - indexPath: The index path specifying the location of the supplementary view in the collection view.
     /// - Returns: A valid supplementary view of the given type.
-    public func dequeue<View>(supplementaryView: View.Type, ofKind kind: SupplementaryViewKind, for indexPath: IndexPath) -> View where View: ReusableView & UICollectionReusableView {
+    public func dequeue<View>(_ supplementaryView: View.Type, ofKind kind: SupplementaryViewKind, for indexPath: IndexPath) -> View where View: ReusableView & UICollectionReusableView {
         guard let view = dequeueReusableSupplementaryView(ofKind: kind.collectionElementKind, withReuseIdentifier: View.reuseIdentifier, for: indexPath) as? View else {
             fatalError("Could not dequeue reusable supplementary view with identifier: \(View.reuseIdentifier)")
         }
@@ -115,7 +115,7 @@ public extension UITableView {
     ///   - cell: The type of class of the cell.
     ///   - indexPath: The index path specifying the location of the cell.
     /// - Returns: A valid table view cell of the given type.
-    public func dequeue<Cell>(cell: Cell.Type, for indexPath: IndexPath) -> Cell where Cell: ReusableView & UITableViewCell {
+    public func dequeue<Cell>(_ cell: Cell.Type, for indexPath: IndexPath) -> Cell where Cell: ReusableView & UITableViewCell {
         guard let cell = dequeueReusableCell(withIdentifier: cell.reuseIdentifier, for: indexPath) as? Cell else {
             fatalError("Could not dequeue reusable cell with identifier: \(Cell.reuseIdentifier)")
         }
@@ -126,7 +126,7 @@ public extension UITableView {
     ///
     /// - Parameter headerFooter: The class of the header/footer view.
     /// - Returns: A valid table view header footer view of the given type.
-    public func dequeue<HeaderFooter>(headerFooter: HeaderFooter.Type) -> HeaderFooter where HeaderFooter: ReusableView & UITableViewHeaderFooterView {
+    public func dequeue<HeaderFooter>(_ headerFooter: HeaderFooter.Type) -> HeaderFooter where HeaderFooter: ReusableView & UITableViewHeaderFooterView {
         guard let view = dequeueReusableHeaderFooterView(withIdentifier: headerFooter.reuseIdentifier) as? HeaderFooter else {
             fatalError("Could not dequeue reusable header footer view with identifier: \(headerFooter.reuseIdentifier)")
         }
