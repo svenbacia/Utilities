@@ -10,7 +10,6 @@ import XCTest
 import Utilities
 
 class IndexPathTests: XCTestCase {
-
     public func testIndexPathZero() {
         XCTAssertEqual(IndexPath.zero.item, 0)
         XCTAssertEqual(IndexPath.zero.row, 0)
