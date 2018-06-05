@@ -35,9 +35,9 @@ public enum SupplementaryViewKind {
     public var collectionElementKind: String {
         switch self {
         case .sectionHeader:
-            return UICollectionElementKindSectionHeader
+            return UICollectionView.elementKindSectionHeader
         case .sectionFooter:
-            return UICollectionElementKindSectionFooter
+            return UICollectionView.elementKindSectionFooter
         }
     }
 }

@@ -33,13 +33,13 @@ class ReusableViewTests: XCTestCase {
 
     func testCollectionViewSupplementaryView_Header() {
         XCTAssertEqual(viewController.collectionView.numberOfItems(inSection: 0), 2)
-        let header = viewController.collectionView(viewController.collectionView, viewForSupplementaryElementOfKind: UICollectionElementKindSectionHeader, at: .zero)
+        let header = viewController.collectionView(viewController.collectionView, viewForSupplementaryElementOfKind: UICollectionView.elementKindSectionHeader, at: .zero)
         XCTAssertEqual(header.reuseIdentifier, HeaderFooterCollectionViewCell.reuseIdentifier)
     }
 
     func testCollectionViewSupplementaryView_Footer() {
         XCTAssertEqual(viewController.collectionView.numberOfItems(inSection: 0), 2)
-        let header = viewController.collectionView(viewController.collectionView, viewForSupplementaryElementOfKind: UICollectionElementKindSectionFooter, at: .zero)
+        let header = viewController.collectionView(viewController.collectionView, viewForSupplementaryElementOfKind: UICollectionView.elementKindSectionFooter, at: .zero)
         XCTAssertEqual(header.reuseIdentifier, HeaderFooterCollectionViewCell.reuseIdentifier)
     }
 }
