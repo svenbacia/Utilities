@@ -10,6 +10,11 @@ import Foundation
 
 public extension Date {
 
+	/// Returns a date value initialized to the current date and time.
+	public static var now: Date {
+		return Date()
+	}
+
     /// Returns the first moment of a given Date, as a Date.
     public var startOfDay: Date {
         return Calendar.current.startOfDay(for: self)
