@@ -13,18 +13,21 @@ public class NotificationObserver {
 
     // MARK: - Properties
 
-    private var observers = [NSObjectProtocol]()
     private let queue: OperationQueue
+    private let notificationCenter: NotificationCenter
+
+    private var observers = [NSObjectProtocol]()
 
     // MARK: - Init
 
-    public init(queue: OperationQueue = .main) {
+    public init(notificationCenter: NotificationCenter = .default, queue: OperationQueue = .main) {
+        self.notificationCenter = notificationCenter
         self.queue = queue
     }
 
     deinit {
         for observer in observers {
-            NotificationCenter.default.removeObserver(observer)
+            notificationCenter.removeObserver(observer)
         }
     }
 
@@ -37,7 +40,7 @@ public class NotificationObserver {
     ///   - name: The notification name.
     ///   - handler: The block to be executed when the notification is received.
     public func when(_ name: Notification.Name, perform handler: @escaping (Notification) -> Void) {
-        let observer = NotificationCenter.default.addObserver(forName: name, object: nil, queue: queue, using: handler)
+        let observer = notificationCenter.addObserver(forName: name, object: nil, queue: queue, using: handler)
         observers.append(observer)
     }
 }

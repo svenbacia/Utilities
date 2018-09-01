@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260B5B9420F3DD11000334C8 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B5B9320F3DD11000334C8 /* Helper.swift */; };
+		260E0ACF20F0B41800FDF1C9 /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260E0ACE20F0B41800FDF1C9 /* CollectionViewDataSource.swift */; };
+		2618E9FE20F0FBC900447893 /* Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2618E9FC20F0FBC900447893 /* Example.xcdatamodeld */; };
+		2618EA0120F0FC0500447893 /* NSPersistentContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2618EA0020F0FC0500447893 /* NSPersistentContainerTests.swift */; };
+		2618EA0320F0FD0100447893 /* PersistentContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2618EA0220F0FD0100447893 /* PersistentContainerTests.swift */; };
 		2619BD671FFD1E1200A9F8AE /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2619BD5D1FFD1E1200A9F8AE /* Utilities.framework */; };
 		2619BD6E1FFD1E1200A9F8AE /* Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 2619BD601FFD1E1200A9F8AE /* Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2619BD801FFD1EB500A9F8AE /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2619BD7F1FFD1EB500A9F8AE /* Array.swift */; };
@@ -18,10 +23,8 @@
 		2619BD8E1FFD264B00A9F8AE /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2619BD8D1FFD264B00A9F8AE /* UIColor.swift */; };
 		2619BD901FFD26C200A9F8AE /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2619BD8F1FFD26C200A9F8AE /* Path.swift */; };
 		2619BD921FFD28CB00A9F8AE /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2619BD911FFD28CB00A9F8AE /* ReusableView.swift */; };
-		2619BD941FFD2E2A00A9F8AE /* IntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2619BD931FFD2E2A00A9F8AE /* IntTests.swift */; };
 		2619BD971FFD305800A9F8AE /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2619BD961FFD305800A9F8AE /* ArrayTests.swift */; };
 		2619BD991FFD350A00A9F8AE /* IndexPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2619BD981FFD350A00A9F8AE /* IndexPathTests.swift */; };
-		2619BD9B1FFD355000A9F8AE /* BoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2619BD9A1FFD355000A9F8AE /* BoolTests.swift */; };
 		2619BD9D1FFD35A600A9F8AE /* DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2619BD9C1FFD35A600A9F8AE /* DateTests.swift */; };
 		263DF4171FFD6C36000B088E /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263DF4161FFD6C36000B088E /* StringTests.swift */; };
 		263DF4191FFD6D2E000B088E /* PathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263DF4181FFD6D2E000B088E /* PathTests.swift */; };
@@ -29,6 +32,11 @@
 		263DF4201FFD7077000B088E /* ReusableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263DF41F1FFD7077000B088E /* ReusableViewTests.swift */; };
 		267FF5501FFE8E7300443B37 /* UIColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267FF54F1FFE8E7300443B37 /* UIColorTests.swift */; };
 		26AFC070200A04E700FB5622 /* NotificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFC06F200A04E700FB5622 /* NotificationObserver.swift */; };
+		26EE286A20F28F080055BDC7 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EE286920F28F080055BDC7 /* Example.swift */; };
+		26EE286C20F28F270055BDC7 /* ManagedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EE286B20F28F270055BDC7 /* ManagedTests.swift */; };
+		A1C734D420E5183500505C6E /* NSManagedObjectContext+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C734D220E5183500505C6E /* NSManagedObjectContext+Extension.swift */; };
+		A1C734D520E5183500505C6E /* Managed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C734D320E5183500505C6E /* Managed.swift */; };
+		A1C734D820E5188400505C6E /* NSPersistentContainer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C734D720E5188400505C6E /* NSPersistentContainer+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		260B5B9320F3DD11000334C8 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		260E0ACE20F0B41800FDF1C9 /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
+		2618E9FD20F0FBC900447893 /* Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Example.xcdatamodel; sourceTree = "<group>"; };
+		2618EA0020F0FC0500447893 /* NSPersistentContainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPersistentContainerTests.swift; sourceTree = "<group>"; };
+		2618EA0220F0FD0100447893 /* PersistentContainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentContainerTests.swift; sourceTree = "<group>"; };
 		2619BD5D1FFD1E1200A9F8AE /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2619BD601FFD1E1200A9F8AE /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		2619BD611FFD1E1200A9F8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,10 +69,8 @@
 		2619BD8D1FFD264B00A9F8AE /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		2619BD8F1FFD26C200A9F8AE /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 		2619BD911FFD28CB00A9F8AE /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
-		2619BD931FFD2E2A00A9F8AE /* IntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntTests.swift; sourceTree = "<group>"; };
 		2619BD961FFD305800A9F8AE /* ArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
 		2619BD981FFD350A00A9F8AE /* IndexPathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexPathTests.swift; sourceTree = "<group>"; };
-		2619BD9A1FFD355000A9F8AE /* BoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolTests.swift; sourceTree = "<group>"; };
 		2619BD9C1FFD35A600A9F8AE /* DateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTests.swift; sourceTree = "<group>"; };
 		263DF4161FFD6C36000B088E /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
 		263DF4181FFD6D2E000B088E /* PathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathTests.swift; sourceTree = "<group>"; };
@@ -67,6 +78,11 @@
 		263DF41F1FFD7077000B088E /* ReusableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewTests.swift; sourceTree = "<group>"; };
 		267FF54F1FFE8E7300443B37 /* UIColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTests.swift; sourceTree = "<group>"; };
 		26AFC06F200A04E700FB5622 /* NotificationObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationObserver.swift; sourceTree = "<group>"; };
+		26EE286920F28F080055BDC7 /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		26EE286B20F28F270055BDC7 /* ManagedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedTests.swift; sourceTree = "<group>"; };
+		A1C734D220E5183500505C6E /* NSManagedObjectContext+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Extension.swift"; sourceTree = "<group>"; };
+		A1C734D320E5183500505C6E /* Managed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Managed.swift; sourceTree = "<group>"; };
+		A1C734D720E5188400505C6E /* NSPersistentContainer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSPersistentContainer+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +104,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2618E9FF20F0FBEF00447893 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				2618EA0020F0FC0500447893 /* NSPersistentContainerTests.swift */,
+				2618EA0220F0FD0100447893 /* PersistentContainerTests.swift */,
+				26EE286B20F28F270055BDC7 /* ManagedTests.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
 		2619BD531FFD1E1100A9F8AE = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +144,7 @@
 		2619BD6A1FFD1E1200A9F8AE /* UtilitiesTests */ = {
 			isa = PBXGroup;
 			children = (
+				26EE286820F28EFB0055BDC7 /* Sources */,
 				2619BD7A1FFD1E3700A9F8AE /* Support */,
 				2619BD791FFD1E3400A9F8AE /* Tests */,
 			);
@@ -127,6 +154,7 @@
 		2619BD771FFD1E2400A9F8AE /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				A1C734D620E5185800505C6E /* Core Data */,
 				2619BD7C1FFD1E5700A9F8AE /* Foundation */,
 				2619BD7B1FFD1E5300A9F8AE /* UIKit */,
 			);
@@ -145,6 +173,7 @@
 		2619BD791FFD1E3400A9F8AE /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				2618E9FF20F0FBEF00447893 /* Core Data */,
 				263DF41A1FFD6E4D000B088E /* UIKit */,
 				2619BD951FFD2E2D00A9F8AE /* Foundation */,
 			);
@@ -155,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				2619BD6D1FFD1E1200A9F8AE /* Info.plist */,
+				2618E9FC20F0FBC900447893 /* Example.xcdatamodeld */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -187,10 +217,8 @@
 			isa = PBXGroup;
 			children = (
 				2619BD961FFD305800A9F8AE /* ArrayTests.swift */,
-				2619BD9A1FFD355000A9F8AE /* BoolTests.swift */,
 				2619BD9C1FFD35A600A9F8AE /* DateTests.swift */,
 				2619BD981FFD350A00A9F8AE /* IndexPathTests.swift */,
-				2619BD931FFD2E2A00A9F8AE /* IntTests.swift */,
 				263DF4181FFD6D2E000B088E /* PathTests.swift */,
 				263DF4161FFD6C36000B088E /* StringTests.swift */,
 			);
@@ -205,6 +233,26 @@
 				267FF54F1FFE8E7300443B37 /* UIColorTests.swift */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		26EE286820F28EFB0055BDC7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				26EE286920F28F080055BDC7 /* Example.swift */,
+				260B5B9320F3DD11000334C8 /* Helper.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A1C734D620E5185800505C6E /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				A1C734D320E5183500505C6E /* Managed.swift */,
+				A1C734D220E5183500505C6E /* NSManagedObjectContext+Extension.swift */,
+				A1C734D720E5188400505C6E /* NSPersistentContainer+Extension.swift */,
+				260E0ACE20F0B41800FDF1C9 /* CollectionViewDataSource.swift */,
+			);
+			path = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +277,6 @@
 				2619BD591FFD1E1200A9F8AE /* Frameworks */,
 				2619BD5A1FFD1E1200A9F8AE /* Headers */,
 				2619BD5B1FFD1E1200A9F8AE /* Resources */,
-				269CA73E1FFEC47600415A24 /* 🤓 SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -316,23 +363,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		269CA73E1FFEC47600415A24 /* 🤓 SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "🤓 SwiftLint";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		2619BD581FFD1E1200A9F8AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -345,10 +375,13 @@
 				2619BD921FFD28CB00A9F8AE /* ReusableView.swift in Sources */,
 				2619BD8E1FFD264B00A9F8AE /* UIColor.swift in Sources */,
 				2619BD861FFD23B400A9F8AE /* IndexPath.swift in Sources */,
+				A1C734D420E5183500505C6E /* NSManagedObjectContext+Extension.swift in Sources */,
 				2619BD841FFD212400A9F8AE /* NSLayoutConstraint.swift in Sources */,
 				26AFC070200A04E700FB5622 /* NotificationObserver.swift in Sources */,
 				2619BD8C1FFD262B00A9F8AE /* String.swift in Sources */,
 				2619BD901FFD26C200A9F8AE /* Path.swift in Sources */,
+				A1C734D820E5188400505C6E /* NSPersistentContainer+Extension.swift in Sources */,
+				260E0ACF20F0B41800FDF1C9 /* CollectionViewDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,15 +389,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2618EA0320F0FD0100447893 /* PersistentContainerTests.swift in Sources */,
+				260B5B9420F3DD11000334C8 /* Helper.swift in Sources */,
+				26EE286C20F28F270055BDC7 /* ManagedTests.swift in Sources */,
 				263DF4201FFD7077000B088E /* ReusableViewTests.swift in Sources */,
-				2619BD941FFD2E2A00A9F8AE /* IntTests.swift in Sources */,
-				2619BD9B1FFD355000A9F8AE /* BoolTests.swift in Sources */,
 				2619BD991FFD350A00A9F8AE /* IndexPathTests.swift in Sources */,
 				2619BD971FFD305800A9F8AE /* ArrayTests.swift in Sources */,
 				263DF4171FFD6C36000B088E /* StringTests.swift in Sources */,
+				2618E9FE20F0FBC900447893 /* Example.xcdatamodeld in Sources */,
 				2619BD9D1FFD35A600A9F8AE /* DateTests.swift in Sources */,
 				267FF5501FFE8E7300443B37 /* UIColorTests.swift in Sources */,
+				26EE286A20F28F080055BDC7 /* Example.swift in Sources */,
 				263DF4191FFD6D2E000B088E /* PathTests.swift in Sources */,
+				2618EA0120F0FC0500447893 /* NSPersistentContainerTests.swift in Sources */,
 				263DF41C1FFD6E5C000B088E /* NSLayoutConstraintTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -603,6 +640,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2618E9FC20F0FBC900447893 /* Example.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2618E9FD20F0FBC900447893 /* Example.xcdatamodel */,
+			);
+			currentVersion = 2618E9FD20F0FBC900447893 /* Example.xcdatamodel */;
+			path = Example.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2619BD541FFD1E1100A9F8AE /* Project object */;
 }
